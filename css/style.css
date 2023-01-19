@@ -15,7 +15,28 @@ ________________________________________________________*/
 TITLE&SUBTITLE
 ________________________________________________________*/
 
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 90%;
+}
 
+.pagetitle  {
+    text-align: center;
+    height: 15%;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: font-family: 'Titan One', cursive;
+    color: #e53170;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.pagetitle p {
+    font-size: 20px;
+    line-height: 30px;
+}
 
 /* ____________________________________________________
 

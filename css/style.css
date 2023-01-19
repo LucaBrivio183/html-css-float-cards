@@ -24,7 +24,7 @@ body {
 .pagetitle  {
     text-align: center;
     height: 15%;
-    margin: 10px auto;
+    margin: 5% auto;
 }
 
 h2 {
@@ -55,8 +55,7 @@ ________________________________________________________*/
     color: white;
     background-color: black;
     width: calc(100% / 3 - 20px);
-    margin: 10px;
-    
+    margin: 20px 10px;
 }
 
 .cardphoto {
@@ -86,3 +85,7 @@ ________________________________________________________*/
     margin: 10px 0;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}

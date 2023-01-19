@@ -17,7 +17,8 @@ ________________________________________________________*/
 
 body {
     font-family: 'Roboto', sans-serif;
-    max-width: 90%;
+    max-width: 80%;
+    margin: 0px auto;
 }
 
 .pagetitle  {
@@ -42,3 +43,48 @@ h2 {
 
 CARDS BOX    
 ________________________________________________________*/
+
+.clearfix::after {
+    content:'';
+    clear: both;
+    display: table;
+}
+
+.card {
+    float: left;
+    color: white;
+    background-color: black;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
+
+.cardphoto {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.card>div {
+    float: left;
+}
+
+.photopic {
+    width: 100%;
+    display: block;
+    margin-right: 10px;
+}
+
+.cardinfo {
+    width: 75%-10px;
+}
+
+.cardinfo h3{
+    height: 40%;
+}
+
+.cardinfo h4{
+    height: 30%;
+}
+
+.cardinfo a{
+    height: 30%;
+}

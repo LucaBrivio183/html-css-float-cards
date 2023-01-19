@@ -56,6 +56,7 @@ ________________________________________________________*/
     background-color: black;
     width: calc(100% / 3 - 20px);
     margin: 10px;
+    
 }
 
 .cardphoto {
@@ -70,21 +71,18 @@ ________________________________________________________*/
 .photopic {
     width: 100%;
     display: block;
-    margin-right: 10px;
 }
 
 .cardinfo {
-    width: 75%-10px;
+    margin: 10px 0;
+    width: 75%-15px;
 }
 
 .cardinfo h3{
-    height: 40%;
+    margin: 10px 0;
 }
 
-.cardinfo h4{
-    height: 30%;
+.cardinfo h4, .cardinfo a{
+    margin: 10px 0;
 }
 
-.cardinfo a{
-    height: 30%;
-}

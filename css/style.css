@@ -56,6 +56,7 @@ ________________________________________________________*/
     background-color: black;
     width: calc(100% / 3 - 20px);
     margin: 20px 10px;
+    box-shadow: 15px 12px 20px 2px rgba(0,0,0,0.33);
 }
 
 .cardphoto {
